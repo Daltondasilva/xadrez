@@ -6,4 +6,10 @@
     <RootNamespace>xadrez_console</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="tabuleiro\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tabuleiro\" />
+  </ItemGroup>
 </Project>
